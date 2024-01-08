@@ -37,9 +37,9 @@ def pick_data(data , Times):
 
 
 def show_data(comp_a , comp_b):
-    print(f"Compare A: Name: {comp_a['name']} , description: {comp_a['description']} , country: {comp_a['country']}")
+    print(f"Compare A: {comp_a['name']} , {comp_a['description']} , from {comp_a['country']}")
     print(vs)
-    print(f"Compare B: Name: {comp_b['name']} , description: {comp_b['description']} , country: {comp_b['country']}")
+    print(f"Compare B: {comp_b['name']} , {comp_b['description']} , from {comp_b['country']}")
 
 
 
@@ -52,7 +52,6 @@ while True:
         Times = 0
     follower_a = comp_a['follower_count']
     follower_b = comp_b['follower_count']
-    print(follower_a , follower_b)
     user = input("A or B: ").lower()
     if user == 'a':
         if follower_a > follower_b:
