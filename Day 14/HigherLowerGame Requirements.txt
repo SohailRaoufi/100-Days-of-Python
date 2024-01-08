@@ -1,0 +1,13 @@
+Higher Lower Game Requirements:
+The Game Works Like This:
+you are giving two random data for the user and the user must pick one from
+data on which it has more followers and if user select the wrong one the score will be 0 and the game will end.
+and if user choose the correct one it will continue and the score will get plus one and the next round the same data with higher follower will compared with anohter data and user must do the same work again.
+
+also, each high follower will compared 2 times after 2 times it will change with another data.
+
+Required Things:
+1: Data
+2: score
+3: Random pick
+4: art
